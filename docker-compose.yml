@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  onos:
+    container_name: onos-c
+    image: onosproject/onos
+    ports:
+      - 80:80
+      - 8181:8181 
+      - 8101:8101 
+      - 5005:5005 
+      - 830:830
+      - 6653:6653
+    volumes:
+      - ./onos-apps:/root/onos/onos-apps
+
+
+
