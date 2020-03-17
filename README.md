@@ -14,10 +14,10 @@ Clone this repository with the following command:
 ```
 git clone https://github.com/Alepacox/Onos_on_Windows.git
 ```
-After that, move into the cloned folder and run 
+After that, move into the cloned folder and run ([PATH-TO-REPO] ha to be filled with your own path)
 ```
 docker pull onosproject/onos
-docker run -t -d -p 8181:8181 -p 8101:8101 -p 5005:5005 -p 830:830 -p 6653:6653 -v ./onos-apps:/root/onos/onos-apps --name onos-c onosproject/onos
+docker run -t -d -p 8181:8181 -p 8101:8101 -p 5005:5005 -p 830:830 -p 6653:6653 -v [PATH-TO-REPO]/Onos_on_Windows/onos-apps:/root/onos/onos-apps --name onos-c onosproject/onos
 ```
 This will download and run the container.
 
