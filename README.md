@@ -26,7 +26,7 @@ docker exec -it onos-c bash
 ```
 And run:
 ```
-./WindowsSetup.sh
+./onos-apps/WindowsSetup.sh
 ```
 Once it finished, type _exit_.
 
