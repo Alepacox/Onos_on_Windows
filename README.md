@@ -12,7 +12,7 @@ The docker will have a shared folder, called _onos-app_, where you can develop t
 
 Clone this repository with the following command:
 ```
-git clone https://github.com/Alepacox/Onos-Mininet_Docker-Compose.git
+git clone https://github.com/Alepacox/Onos_on_Windows.git
 ```
 After that, move into the cloned folder and run 
 ```
@@ -55,7 +55,7 @@ So basically from Windows you can give direct commands to the container with ```
 or you can access to the container's bash with ```docker exec -it onos-c bash``` and call commands directly in there.
 The second option is preferred when you have to build apps. 
 
-See this example --> [How to create/build/install an app on Windows](https://github.com/Alepacox/Onos-Mininet_Docker-Compose/blob/master/%5BSample%5DCreateApp_Windows.md)
+See this example --> [How to create/build/install an app on Windows](https://github.com/Alepacox/Onos_on_Windows/blob/master/%5BSample%5DCreateApp_Windows.md)
 
 [Mininet]
 --------------------------------------------
