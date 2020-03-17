@@ -33,6 +33,9 @@ And run:
 ```
 Once it finished, type _exit_.
 
+Available commands
+-----------------------------------
+
 - Access to Onos's shell (password= karaf):
 ```
 [Windows]: docker exec -it onos-c onos
