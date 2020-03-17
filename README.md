@@ -16,22 +16,25 @@ The docker will have a shared folder, called _onos-app_, where you can develop t
 
 Clone this repository with the following command:
 ```
-git clone https://github.com/Alepacox/Onos_on_Windows.git
+$ git clone https://github.com/Alepacox/Onos_on_Windows.git
 ```
 After that, move into the cloned folder and run:
 ```
-docker-compose up
+$ docker-compose up
 ```
 This will download and run the container.
 
 Once it is running, run the following commands to attach to the ONOS container's bash:
 ```
-docker exec -it onos-c bash
+$ docker exec -it onos-c bash
 ```
 And run:
 ```
-su
-./onos-apps/WindowsSetup.sh
+$ su ./onos-apps/WindowsSetup.sh
+
+[any troubles? try to run:]
+$ su sed -i 's/\r$//' ./onos-apps/WindowsSetup.sh
+[and retry the previous command]
 ```
 Once it finished, type _exit_.
 
@@ -40,7 +43,8 @@ Available commands
 
 - Access to Onos's shell (password= karaf):
 ```
-[Windows]: docker exec -it onos-c onos
+[Windows]: 
+     $ docker exec -it onos-c onos
 ```
  - Create a new app:
 ```
