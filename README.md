@@ -30,10 +30,10 @@ $ docker exec -it onos-c bash
 ```
 And run:
 ```
-$ su ./onos-apps/WindowsSetup.sh
+$ ./onos-apps/WindowsSetup.sh
 
 [any troubles? try to run:]
-$ su sed -i 's/\r$//' ./onos-apps/WindowsSetup.sh
+$ sed -i 's/\r$//' ./onos-apps/WindowsSetup.sh
 [and retry the previous command]
 ```
 Once it finished, type ```exit```
