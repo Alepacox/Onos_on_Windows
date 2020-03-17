@@ -36,7 +36,7 @@ $ su ./onos-apps/WindowsSetup.sh
 $ su sed -i 's/\r$//' ./onos-apps/WindowsSetup.sh
 [and retry the previous command]
 ```
-Once it finished, type _exit_.
+Once it finished, type ```exit```
 
 Available commands
 -----------------------------------
