@@ -1,5 +1,7 @@
 # Onos_on_Windows
-This works with Docker on Windows 10 Pro/Enterprise and Docker Toolbox on Windows 10 Home.
+Standalone version of ONOS that does not require environment setup.
+Fully working on Docker Toolbox on Windows 10 Home.
+Of course it works with Windows 10 Pro/Enterprise, Linux and MacOS.
 
 Due to the fact that Onos is not able to run on Windows, I've added some dependencies (like Maven) and scripts that still enables you to recall its main functionalities from within the docker:
 - Recall Onos CLI (```onos```)
