@@ -1,4 +1,5 @@
 /root/onos/bin/onos-user-password root karaf
+sed -i 's/\r$//' /root/onos/onos-apps/onos-create-app
 cat << EOF >> ~/.bash_aliases 
 alias onos='/root/onos/bin/onos'
 alias onos-app='/root/onos/bin/onos-app'
