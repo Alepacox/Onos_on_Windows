@@ -1,9 +1,10 @@
 # ONOS SDN Controller on Windows 
-Standalone version of ONOS that does not require environment setup,so you don't need to run an entire linux VM in order to make it run.
+Standalone version of ONOS that does not require environment setup,and so you don't need to run an entire linux VM in order to make it run.
 
 Fully working on Docker Toolbox on Windows 10 Home. Also works with Windows 10 Pro/Enterprise, Linux and MacOS.
 Requires Docker Toolbox/Docker to be installed.
 
+**Why?**
 Due to the fact that Onos is not able to run on Windows, I've added some dependencies (like Maven) and scripts that still enables you to recall its main functionalities from within the docker:
 - Recall Onos CLI (```onos```)
 - Recall Onos apps creation script (```onos-create-app```)
@@ -29,6 +30,7 @@ docker exec -it onos-c bash
 ```
 And run:
 ```
+su
 ./onos-apps/WindowsSetup.sh
 ```
 Once it finished, type _exit_.
